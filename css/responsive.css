@@ -1,0 +1,121 @@
+:root{
+	--color: #eee;
+	--bgc-header: #154B79;
+	--bgc-body: #19619E;
+    --font-family-hanken: 'Hanken Grotesk', sans-serif;
+    --font-family-solitreo: 'Solitreo', cursive;
+}
+
+@media (max-width: 320px){
+    body{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background-color: var(--bgc-body);
+        color: var(--color);
+        font-family: var(--font-family-hanken);
+    }
+    img{
+        margin: 12px auto;
+        width: 10rem;
+    }
+    .header{
+        width: 100vw;
+        display: flex;
+        padding: 12px;
+        height: 90px;
+        background-color: var(--bgc-header);
+        position: fixed;
+        /* justify-content: space-around; */
+    }
+    .logo{
+        display: none;
+    }
+    .checkbox{
+        display: none;
+    }
+    .nav{
+        display: flex;
+        right: 0;
+
+    }  
+    .image-icon{
+        width: 4.75rem;
+    }
+    .nav .link{
+        background-color: royalblue;
+        display: none;
+    }
+    .nav .link li a{
+        color: var(--color);
+        font-size: 2.75rem;
+    }
+    .nav .active{
+        display: block;
+        background-color: var(--bgc-header);
+        position: absolute;
+        margin-top: 6rem;
+    }
+    #incio, #proyectos, #habilidades, #contacto{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        padding: 12px;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.75rem;
+    }
+    #proyectos{
+        margin-bottom: 40rem;
+    }
+    .proyecto-container{
+        width: 100%;
+        padding: 12px;
+    }
+    .proyecto{
+    text-align: center;
+        margin: 12px auto;
+    }
+    .image-proyectos{
+        width: 80%;
+    }
+    .title-protectos{
+        text-align: center;
+    }
+    #habilidades{
+        margin-top: 120rem;
+    }
+    .card-container{
+        width: 90%;
+        margin: 12px auto;
+    }
+    .title-front{
+        text-align: center;
+        font-weight: 100;
+    }
+    .image-skills{
+        width: 100%;
+    }
+    .title-skills{
+        font-weight: 100;
+        text-align: center;
+    }
+    #contacto{
+        width: 100vw;
+        height: 100vh;
+        margin-top: 90rem;
+    }
+    #contacto .form{
+        width: 50%;
+        border-radius: 12px;
+        padding: 12px;
+        background-image: url(../Assets/image-fondo/contacto.jpg);
+    }
+    .proyects{
+        width: 100%;
+        height: 100vh;
+        margin-top: 100px;
+    }
+}

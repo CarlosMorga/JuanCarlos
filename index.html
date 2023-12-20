@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juan Carlos Morga Mejia Portafolio</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100;0,200;0,300;1,100;1,200&family=Solitreo&display=swap"
+        rel="stylesheet">
+    <meta name="keywords" content="Programador web, desarrollador web, Juan Carlos Morga Mejia Portafolio">
+</head>
+
+<body>
+    <header class="header">
+        <img src="Assets/icnons/logo_persoal.jpeg" alt="Logo personal" class="logo">
+        <nav class="nav" id="menu">
+            <div class="menu-nav">
+                <input type="checkbox" name="menu" id="menu-chech" class="checkbox" />
+                <label for="menu-chech" id="menu-icon">
+                    <img src="Assets/icnons/menu.svg" alt="menu resposive" class="image-icon">
+                </label>
+            </div>
+            <ul class="link" id="list">
+                <li><a href="#incio">Inicio</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#contacto" id="modal-acive">Contacto</a></li>
+            </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <!-- SECCION DE EL INICIO -->
+        <section id="incio">
+            <h2 class="title">Sobre mí</h2>
+            <div class="container container-inicio">
+                <img src="Assets/recursos-adicionales/perfil.jpg" class="image image-perfile"
+                    alt="Juan Carlos Morga Mejia" title="Juan Carlos Morga Mejia">
+                <div class="description">
+                    <p class="text">Soy un programador junior que trata cada día de mejorar mis habilidades tanto mis
+                        habilidades blandas como mis habilidades laborales estoy viviendo actualmente en México, la
+                        Ciudad de México tengo conocimiento en diferentes lenguajes tanto del lado del cliente como del
+                        lado del servidor</p>
+                    <a href="Juan carlos morga mejia.pdf" class="cv" id="descarga" target="_blank"
+                        rel="noopener noreferrer">Cv</a>
+                </div>
+            </div>
+        </section>
+        <!-- SECCION DE MIS PROYECTOS PERSONALES -->
+        <section id="proyectos">
+            <h2 class="title">Mis Proyectos</h2>
+            <div class="proyecto-container">
+                <div class="proyecto">
+                    <img src="Assets/proyectos/cafe landing page.png" alt="" class="image-proyectos image">
+                    <h3 class="title-proyectos">Cafétería Landindg page</h3>
+                </div>
+                <div class="proyecto">
+                    <img src="Assets/proyectos/Lector de voz.png" alt="" class="image-proyectos image">
+                    <h3 class="title-proyectos">Lector de Voz</h3>
+                </div>
+                <div class="proyecto">
+                    <img src="Assets/proyectos/Sistema de ventas.png" alt="" class="image-proyectos image">
+                    <h3 class="title-proyectos">Sistema de Ventas</h3>
+                </div>
+            </div>
+            <a href="proyectos.html" class="mis-proyectos" target="_blank" rel="noopener noreferrer">Más proyectos</a>
+        </section>
+        <!-- SECCION DE MIS HABILIDADES  -->
+        <section id="habilidades">
+            <h2 class="title">Mis Habilidades</h2>
+            <div class="card-container">
+                <h4 class="title-front">Mis habilidades de Front End</h4>
+                <div class="tabla">
+                    <div class="card-skills">
+                        <img src="Assets/icnons/html.jpeg" alt="html 5" class="image image-skills">
+                        <h3 class="title-skills">Html</h3>
+                    </div>
+                    <div class="card-skills">
+                        <img src="Assets/icnons/css.jpeg" alt="css3" class="image image-skills">
+                        <h3 class="title-skills">Css</h3>
+                    </div>
+                    <div class="card-skills">
+                        <img src="Assets/icnons/react.jpeg" alt="React.js" class="image image-skills">
+                        <h3 class="title-skills">React.js</h3>
+                    </div>
+                    <div class="card-skills">
+                        <img src="Assets/icnons/js.jpeg" alt="Javascript" class="image image-skills">
+                        <h3 class="title-skills">Javascript</h3>
+                    </div>
+                </div>
+                <!-- MIS HABIÑIDDES BACKEND -->
+                <h4 class="title-front">Mis habilidades de Back End</h4>
+                <div class="tabla">
+                    <div class="card-skills">
+                        <img src="Assets/icnons/base de datos.jpeg" alt="Base de datos" class="image image-skills">
+                        <h3 class="title-skills">Bases de datos</h3>
+                    </div>
+                    <div class="card-skills">
+                        <img src="Assets/icnons/php.jpeg" alt="php" class="image image-skills">
+                        <h3 class="title-skills">Php</h3>
+                    </div>
+                    <div class="card-skills">
+                        <img src="Assets/icnons/node.jpeg" alt="Node.js" class="image image-skills">
+                        <h3 class="title-skills">Node.js</h3>
+                    </div>
+                    <div class="card-skills">
+                        <img src="Assets/icnons/python.jpeg" alt="Python" class="image image-skills">
+                        <h3 class="title-skills">Python</h3>
+                    </div>
+                </div>
+        </section>
+        <!-- SECCION DE LA FORMA EN LA QUE ME PUEDE CONTACTAR -->
+        <section id="contacto">
+            <form action="https://formsubmit.co/carlosmorga656@gmail.com" method="post" class="form" id="formulario">
+                <h1 class="title">Contacta Me</h1>
+                <input type="text" name="nombre" placeholder="Nombre" id="" class="formulario-input input">
+                <input type="text" name="numero" placeholder="Número de Contacto" id="" class="formulario-input input">
+                <input type="email" name="correo" placeholder="Correo Electronico" id="" class="formulario-input input">
+                <textarea name="mensaje" class="input" placeholder="Mensaje" cols="30" rows="10"></textarea>
+                <input type="submit" value="Enviar Correo" class="validar" id="btn-validar">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/">
+            </form>
+        </section>
+    </main>
+    <script src="js/menu.js"></script>
+    <script src="js/contacto.js"></script>
+</body>
+
+</html>
